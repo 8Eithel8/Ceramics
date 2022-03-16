@@ -1,2 +1,42 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+
+.page {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  max-width: 1440px;
+  padding: 0 150px 0 135px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu {
+  min-width: 370px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  min-height: 38px;
+  border-right: 1px solid #EBEBEB;
+  align-items: center;
+  padding-right: 19px;
+}
+
+.header__links {
+  box-sizing: border-box;
+  padding: 26px 0;
+  display: flex;
+}
+
+.header__link {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
