@@ -39,4 +39,29 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
+  color: #6C6C6C;
+}
+
+.header__cart {
+  align-self: center;
+  text-decoration: none;
+  display: flex;
+}
+
+.header__cart-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin: 0 5px 0 16px;
+}
+
+.header__cart-text {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  align-items: center;
 }
