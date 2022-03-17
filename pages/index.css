@@ -65,3 +65,41 @@
   color: #000000;
   align-items: center;
 }
+
+.promo {
+  max-width: 1440px;
+  height: 708px;
+  background-image: url('../image/promo-background.png');
+  background-repeat: no-repeat;
+  padding-top: 94px;
+  box-sizing: border-box;
+}
+
+.promo__container {
+  max-width: 1152px;
+  min-height: 500px;
+  display: flex;
+  margin: 0 0 0 144px;
+}
+
+
+.promo__author {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #D77474;
+}
+
+.promo__title {
+  width: 422px;
+  height: 116px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
