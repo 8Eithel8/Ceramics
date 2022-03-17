@@ -71,7 +71,7 @@
   height: 708px;
   background-image: url('../image/promo-background.png');
   background-repeat: no-repeat;
-  padding-top: 94px;
+  padding: 94px 32px 0 0;
   box-sizing: border-box;
 }
 
@@ -94,6 +94,11 @@
   color: #D77474;
 }
 
+.promo__text {
+  z-index: 1;
+  max-width: 512px;
+}
+
 .promo__title {
   width: 422px;
   height: 116px;
@@ -102,4 +107,22 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 58px;
+}
+
+.promo__slogan {
+  width: 512px;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6C6C6C;
+}
+
+.promo__image {
+  z-index: 0;
+  width: 784px;
+  height: 445px;
+  object-fit: cover;
+  
 }
