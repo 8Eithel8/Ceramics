@@ -8,20 +8,26 @@
 
 .header {
   max-width: 1440px;
-  padding: 0 150px 0 135px;
+  /* height: 91px; */
+  padding: 0 155px 0 128px;
   display: flex;
   justify-content: space-between;
 }
 
 .header__menu {
-  min-width: 370px;
+  min-width: 335px;
   display: flex;
-  justify-content: space-between;
-  list-style: none;
   min-height: 38px;
   border-right: 1px solid #EBEBEB;
   align-items: center;
-  padding-right: 19px;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.header__logo {
+  width: 119px;
+  height: 45px;
+  margin: 19px 0 0 0;
 }
 
 .header__links {
@@ -40,6 +46,11 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #6C6C6C;
+  margin-right: 40px;
+}
+
+.header__link:last-child {
+  margin-right: 0;
 }
 
 .header__cart {
@@ -47,6 +58,8 @@
   text-decoration: none;
   display: flex;
 }
+
+
 
 .header__cart-icon {
   width: 20px;
@@ -79,10 +92,15 @@
   max-width: 1252px;
   min-height: 500px;
   display: flex;
-  margin: 0 0 0 144px;
+  margin: 0 0 0 148px;
   position: relative;
 }
 
+.promo__text {
+  z-index: 2;
+  max-width: 512px;
+  margin-top: 40px;
+}
 
 .promo__author {
   font-family: 'Poppins';
@@ -93,12 +111,10 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #D77474;
+  margin-top: 60px;
 }
 
-.promo__text {
-  z-index: 2;
-  max-width: 512px;
-}
+
 
 .promo__title {
   width: 422px;
@@ -119,7 +135,7 @@
   width: 57px;
   height: 68px;
   background-repeat: no-repeat;
-  top: -10px;
+  top: -15px;
   right: -60px;
 }
 
@@ -131,7 +147,7 @@
   font-size: 16px;
   line-height: 26px;
   color: #6C6C6C;
-  margin: 14px 0 51px 0;
+  margin: 14px 0 49px 0;
 }
 
 .promo__image {
@@ -140,8 +156,8 @@
   height: 445px;
   object-fit: cover;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 35px;
+  right: -5px;
 }
 
 .promo__button {
