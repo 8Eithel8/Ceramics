@@ -174,3 +174,91 @@
   color: #FFFFFF;
   border: none;
 }
+
+.categories {
+  padding: 120px 0 0 0;
+}
+
+.section__type {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #D77474;
+  margin: 0;
+}
+
+.section__title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  margin: 40px 0 63px 0;
+}
+
+.categories__items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 1022px;
+  height: 240px;
+}
+
+.categories__item {
+  box-sizing: border-box;
+  width: 240px;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 146px;
+  position: relative;
+}
+
+.categories__item_color_biege {
+  background-image: url(../image/Rectangle-biege.svg);
+}
+
+.categories__item::after {
+  content: '';
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 70px;
+  left: 85px;
+}
+
+.categories__item_color_biege::after {
+  background-image: url(../image/vase.svg);
+}
+
+.categories__item_color_orange {
+  background-image: url(../image/Rectangle-orange.svg);
+}
+
+.categories__item_color_orange::after {
+  background-image: url(../image/mugs.svg);
+}
+
+.categories__item_color_red {
+  background-image: url(../image/Rectangle-red.svg);
+}
+
+.categories__item_color_red::after {
+  background-image: url(../image/plates.svg);
+}
