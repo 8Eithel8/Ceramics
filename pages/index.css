@@ -193,6 +193,12 @@
 }
 
 .section__title {
+  margin: 40px 0 63px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.section__title-text{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -200,7 +206,15 @@
   line-height: 50px;
   text-align: center;
   color: #000000;
-  margin: 40px 0 63px 0;
+}
+
+.section__title-image {
+  display: block;
+  background-image: url(../image/&.svg);
+  width: 57px;
+  height: 68px;
+  background-repeat: no-repeat;
+  margin: 15px 10px 0 10px;
 }
 
 .categories__items {
@@ -209,6 +223,7 @@
   justify-content: space-between;
   width: 1022px;
   height: 240px;
+  margin: 0 auto;
 }
 
 .categories__item {
@@ -226,12 +241,15 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding-top: 146px;
+  padding-top: 126px;
   position: relative;
+  border: 30px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  border-radius: 100%;
 }
 
 .categories__item_color_biege {
-  background-image: url(../image/Rectangle-biege.svg);
+  background: #E4B366;
 }
 
 .categories__item::after {
@@ -239,8 +257,8 @@
   position: absolute;
   width: 70px;
   height: 70px;
-  top: 70px;
-  left: 85px;
+  top: 50px;
+  left: 55px;
 }
 
 .categories__item_color_biege::after {
@@ -248,7 +266,7 @@
 }
 
 .categories__item_color_orange {
-  background-image: url(../image/Rectangle-orange.svg);
+  background: #F05B10;
 }
 
 .categories__item_color_orange::after {
@@ -256,9 +274,37 @@
 }
 
 .categories__item_color_red {
-  background-image: url(../image/Rectangle-red.svg);
+  background: #A21010;
 }
 
 .categories__item_color_red::after {
   background-image: url(../image/plates.svg);
+}
+
+.categories__decriptoins {
+  max-width: 1172px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 133px;
+   margin: 90px auto 120px auto;
+}
+
+.categories__decriptoins-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 36px;
+  max-width: 323px;
+}
+
+
+.categories__decriptoins-text {
+  max-width: 501px;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6C6C6C;
 }
