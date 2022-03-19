@@ -177,6 +177,7 @@
 
 .categories {
   padding: 120px 0 0 0;
+  border-bottom: 1px solid #EBEBEB;
 }
 
 .section__type {
@@ -193,7 +194,7 @@
 }
 
 .section__title {
-  margin: 40px 0 63px 0;
+  margin: 10px 0 28px 0;
   display: flex;
   justify-content: center;
 }
@@ -214,7 +215,7 @@
   width: 57px;
   height: 68px;
   background-repeat: no-repeat;
-  margin: 15px 10px 0 10px;
+  margin: 15px 0px 0 2px;
 }
 
 .categories__items {
@@ -224,6 +225,7 @@
   width: 1022px;
   height: 240px;
   margin: 0 auto;
+  padding-right: 46px;
 }
 
 .categories__item {
@@ -241,7 +243,7 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding-top: 126px;
+  padding-top: 118px;
   position: relative;
   border: 30px solid rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
@@ -257,7 +259,7 @@
   position: absolute;
   width: 70px;
   height: 70px;
-  top: 50px;
+  top: 45px;
   left: 55px;
 }
 
@@ -286,7 +288,7 @@
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    column-gap: 133px;
-   margin: 90px auto 120px auto;
+   margin: 57px auto 135px auto;
 }
 
 .categories__decriptoins-title {
