@@ -505,3 +505,63 @@ margin: 12px 0 0 0;
   padding: 0;
   width: 195px;
 }
+
+.subscription {
+  width: 100%;
+  padding: 121px 0 134px 0;
+}
+
+.section__subtitle_place_subscription {
+  position: relative;
+}
+
+.section__subtitle_place_subscription::after {
+  position: absolute;
+  content: '';
+  background-image: url(../image/message.svg);
+  width: 80px;
+  height: 80px;
+  top: -120px;
+  left: 680px;
+}
+
+.form-subscription__field{
+  width: 320px;
+  height: 45px;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  border-radius: 0px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: start;
+  color: #A1A1A1;
+  padding-left: 50px;
+}
+
+.form-subscription {
+  width: 500px;
+  height: 133px;
+  margin: 0 auto;
+}
+
+.form-subscription__button {
+  width: 175px;
+  height: 45px;
+  background: #000000;
+  border: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.form-subscription__checkbox {
+  background-color: #A21010;
+}
