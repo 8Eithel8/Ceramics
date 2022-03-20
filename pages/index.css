@@ -24,7 +24,7 @@
   margin: 0;
 }
 
-.header__logo {
+.logo {
   width: 119px;
   height: 45px;
   margin: 19px 0 0 0;
@@ -406,13 +406,13 @@
 }
 
 .table__text {
-font-family: 'Libre Franklin';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #6C6C6C;
-margin: 12px 0 0 0;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6C6C6C;
+  margin: 12px 0 0 0;
 }
 
 .table__price {
@@ -455,7 +455,7 @@ margin: 12px 0 0 0;
 }
 
 .new-collection {
-  width: 100%;
+  max-width: 1440px;
   min-height: 471px;
   background-image: url('../image/background_new-collection.jpg');
   padding: 121px 0 0 144px;
@@ -511,7 +511,7 @@ margin: 12px 0 0 0;
 }
 
 .subscription {
-  width: 100%;
+  max-width: 1440px;
   padding: 241px 0 134px 0;
 }
 
@@ -575,9 +575,9 @@ margin: 12px 0 0 0;
 
 .form-subscription__checkbox-invisible {
   position: absolute;
-  width: 1px; /* если у элемента не будет размеров, некоторые браузеры посчитают, что его вообще нет */
+  width: 1px; 
   height: 1px;
-  overflow: hidden; /* без этого свойства тоже сработает, но так наверняка. Мы его ещё изучим, оно скрывает элементы, выходящие за границы родителя */
+  overflow: hidden;
   clip: rect(0 0 0 0); 
 }
 
@@ -604,4 +604,58 @@ margin: 12px 0 0 0;
   text-align: center;
   color: #A1A1A1;
   margin: 0 0 0 10px;
+}
+
+.contacts {
+  max-width: 1440px;
+  padding: 121px 120px 165px 120px;
+  background: rgba(219, 219, 219, 0.1);
+  border-bottom: 1px solid #EBEBEB;
+  border-top: 1px solid #EBEBEB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contacts__text {
+  max-width: 340px;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #6C6C6C;
+}
+
+.contacts-block {
+  list-style: none;
+  display: flex;
+  max-width: 930px;
+  justify-content: space-between;
+}
+
+.contacts-block__item {
+  max-width: 371px;
+  min-height: 127px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../image/email.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 20px;
+  
+}
+
+.contacts-block__title {
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
 }
