@@ -608,7 +608,7 @@
 .contacts {
   max-width: 1440px;
   padding: 90px 120px 165px 120px;
-  background: rgba(219, 219, 219, 0.1);
+  background: rgba(252, 252, 252, 1);
   border-bottom: 1px solid #EBEBEB;
   border-top: 1px solid #EBEBEB;
   display: flex;
@@ -687,4 +687,25 @@
   color: #6C6C6C;
   margin: 0;
   
+}
+
+.footer {
+  max-width: 1440px;
+  background-color: rgba(249, 249, 249, 1);
+  padding: 37px 0 34px 0;
+}
+
+.footer__copiright {
+  text-align: center;
+  margin: 0;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #6C6C6C;
+}
+
+.footer__autor {
+  color: #000000;
 }
