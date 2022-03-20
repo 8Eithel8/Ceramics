@@ -156,8 +156,13 @@
       <form class="form-subscription" action="">
         <input class="form-subscription__field" id="e-mail" type="text" placeholder="Enter your email">
         <button class="form-subscription__button" type="submit">subscibe</button>
-        <label for=""></label>
-        <input class="form-subscription__checkbox-invisible" id="form-subscription-checkbox" type="checkbox">
+        <div class="form-subscription__checkbox">
+          <label>
+            <input class="form-subscription__checkbox-invisible" name="form-subscription-checkbox" type="checkbox" checked>
+            <div class="form-subscription__checkbox-pseudo"></div>
+          </label> 
+          <p class="form-subscription__checkbox-text">Sign up for our newsletter</p>
+        </div> 
       </form>
     </section>
 

@@ -460,9 +460,12 @@ margin: 12px 0 0 0;
   background-image: url('../image/background_new-collection.jpg');
   padding: 121px 0 0 144px;
   background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
 .new-collection__subtitle {
+  max-width: 556px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -475,6 +478,7 @@ margin: 12px 0 0 0;
 }
 
 .new-collection__title {
+  max-width: 556px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -508,7 +512,7 @@ margin: 12px 0 0 0;
 
 .subscription {
   width: 100%;
-  padding: 121px 0 134px 0;
+  padding: 241px 0 134px 0;
 }
 
 .section__subtitle_place_subscription {
@@ -525,6 +529,12 @@ margin: 12px 0 0 0;
   left: 680px;
 }
 
+.form-subscription {
+  width: 505px;
+  height: 133px;
+  margin: 0 auto;
+}
+
 .form-subscription__field{
   width: 320px;
   height: 45px;
@@ -539,12 +549,7 @@ margin: 12px 0 0 0;
   text-align: start;
   color: #A1A1A1;
   padding-left: 50px;
-}
-
-.form-subscription {
-  width: 500px;
-  height: 133px;
-  margin: 0 auto;
+  margin-right: 5px;
 }
 
 .form-subscription__button {
@@ -563,5 +568,40 @@ margin: 12px 0 0 0;
 }
 
 .form-subscription__checkbox {
-  background-color: #A21010;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.form-subscription__checkbox-invisible {
+  position: absolute;
+  width: 1px; /* если у элемента не будет размеров, некоторые браузеры посчитают, что его вообще нет */
+  height: 1px;
+  overflow: hidden; /* без этого свойства тоже сработает, но так наверняка. Мы его ещё изучим, оно скрывает элементы, выходящие за границы родителя */
+  clip: rect(0 0 0 0); 
+}
+
+.form-subscription__checkbox-pseudo {
+  width: 13px;
+  height: 13px;
+  border: 1px solid #6C6C6C;
+}
+
+.form-subscription__checkbox-invisible:checked + .form-subscription__checkbox-pseudo {
+  background-color: #8534FF;
+}
+
+.form-subscription__checkbox-invisible:focus + .form-subscription__checkbox-pseudo {
+  border: 1px solid rgba(235, 185, 106, 1);
+}
+
+.form-subscription__checkbox-text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #A1A1A1;
+  margin: 0 0 0 10px;
 }
