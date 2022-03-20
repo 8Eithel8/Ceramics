@@ -396,7 +396,6 @@
 
 .table {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   width: 1152px;
   flex-wrap: wrap;
@@ -526,7 +525,7 @@
   width: 80px;
   height: 80px;
   top: -120px;
-  left: 680px;
+  left: 47%;
 }
 
 .form-subscription {
@@ -608,13 +607,13 @@
 
 .contacts {
   max-width: 1440px;
-  padding: 121px 120px 165px 120px;
+  padding: 90px 120px 165px 120px;
   background: rgba(219, 219, 219, 0.1);
   border-bottom: 1px solid #EBEBEB;
   border-top: 1px solid #EBEBEB;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .contacts__text {
@@ -626,36 +625,66 @@
   line-height: 24px;
   text-align: center;
   color: #6C6C6C;
+  margin: 25px 0 65px 0;
 }
 
 .contacts-block {
+  max-width: 1120px;
   list-style: none;
   display: flex;
-  max-width: 930px;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
 }
 
 .contacts-block__item {
-  max-width: 371px;
+  max-width: 188px;
   min-height: 127px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-image: url(../image/email.svg);
+  justify-content: flex-start;
   background-repeat: no-repeat;
   background-position: top center;
   padding-top: 20px;
-  
+  margin-right: 250px;
+}
+
+.contacts-block__item:last-of-type {
+  margin-right: 0;
+}
+
+.contacts-block__item_email {
+  background-image: url(../image/email.svg);
+}
+
+.contacts-block__item_adress {
+  background-image: url(../image/adress.svg);
+}
+
+.contacts-block__item_phone {
+  background-image: url(../image/phone.svg);
 }
 
 .contacts-block__title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.contacts-block__info {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #6C6C6C;
+  margin: 0;
   
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 23px;
-text-align: center;
-letter-spacing: 1px;
-text-transform: uppercase;
 }
