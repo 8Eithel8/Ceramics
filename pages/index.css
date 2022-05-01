@@ -490,13 +490,16 @@
 }
 
 .table-wrapper {
-  position: relative;
+  /*position: relative;*/
+ display: flex;
 }
 
-.table-wrapper__title-aside {
-  width: 240px;
-  top: calc(50% - 70px);
- /*top: 50%;*/
+.title-aside_store {
+  width: 340px;
+  left: -200px;
+  top: 44%;
+  position: absolute;
+  align-self: center;
 }
 
 .table {
@@ -617,6 +620,7 @@
 .subscription {
   max-width: 1440px;
   padding: 241px 0 134px 0;
+  position: relative;
 }
 
 .section__subtitle_place_subscription {
@@ -709,6 +713,13 @@
   text-align: center;
   color: #A1A1A1;
   margin: 0 0 0 10px;
+}
+
+.title-aside-subscription {
+  position: absolute;
+  /*width: 340px;*/
+  right: 0;
+  top: 44%;
 }
 
 .contacts {
