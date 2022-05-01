@@ -102,6 +102,12 @@
   position: relative;
 }
 
+@media (max-width: 7673px) {
+  .promo__container {
+    margin-left: 100px;
+  }
+}
+
 .promo__text {
   z-index: 2;
   max-width: 512px;
@@ -399,6 +405,7 @@
 .featured-products {
   border-bottom: 1px solid #EBEBEB;
   border-top: 1px solid #EBEBEB;
+  position: relative;
 }
 
 .featured-products-wrapper {
@@ -475,16 +482,27 @@
   padding: 120px 0;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .section__title_place_store {
   margin: 14px 0 63px 20px;
 }
 
+.table-wrapper {
+  position: relative;
+}
+
+.table-wrapper__title-aside {
+  width: 240px;
+  top: calc(50% - 70px);
+ /*top: 50%;*/
+}
+
 .table {
   display: flex;
   justify-content: space-between;
-  width: 1152px;
+  max-width: 1152px;
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 0;
