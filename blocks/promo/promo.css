@@ -1,9 +1,10 @@
 
 .promo {
     max-width: 1440px;
-    height: 708px;
+    /*height: 708px;*/
     background-image: url('../../image/promo-background.png');
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding: 94px 32px 0 0;
     box-sizing: border-box;
     filter: opacity(0.8);

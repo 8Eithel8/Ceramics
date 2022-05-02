@@ -3,6 +3,7 @@
     border-bottom: 1px solid #EBEBEB;
     border-top: 1px solid #EBEBEB;
     position: relative;
+    padding-right: 20px;
 }
 
 .featured-products-wrapper {
@@ -25,6 +26,7 @@
 .featured-products__image::after {
     content: '';
     position: absolute;
+    background-size: contain;
     background-repeat: no-repeat;
     width: 250px;
     height: 509px;
@@ -32,8 +34,29 @@
     left: 25%;
 }
 
+@media (max-width: 1023px) {
+    .featured-products__image::after {
+        width: calc(200px*0.8);
+        /*height: calc(509px*0.8);*/
+    }
+}
+
+@media (max-width: 767px) {
+    .featured-products__image::after {
+        width: calc(200px*0.8);
+        /*height: calc(509px*0.6);*/
+    }
+}
+
 .featured-products__image_color_gold::after {
     background-image: url(../../image/image-vase2.png);
+}
+
+
+@media (max-width: 1023px) {
+    .featured-products__image_color_gold::after {
+        top: -20%;
+    }
 }
 
 .featured-products__image_color_orange::after {
@@ -42,6 +65,23 @@
     top: -45%;
     left: 13%;
 }
+
+@media (max-width: 1023px) {
+    .featured-products__image_color_orange::after {
+        width: calc(350px*0.9);
+        top: -45%;
+        left: 3%;
+    }
+}
+
+@media (max-width: 767px) {
+    .featured-products__image_color_orange::after {
+        width: calc(350px*0.8);
+        top: -45%;
+        left: 0;
+    }
+}
+
 
 .featured-products__title {
     font-family: 'Poppins';
