@@ -112,3 +112,15 @@
     color: #000000;
     text-decoration: none;
 }
+
+.featured-products__link:hover {
+    opacity: .6;
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+
+.title-aside-featured-products {
+    position: absolute;
+    left: 80%;
+    top: 40%;
+}

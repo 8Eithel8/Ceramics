@@ -56,6 +56,12 @@
     text-transform: uppercase;
 }
 
+.form-subscription__button:hover {
+    opacity: .6;
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+
 .form-subscription__checkbox {
     display: flex;
     justify-content: center;
@@ -98,7 +104,6 @@
 
 .title-aside-subscription {
     position: absolute;
-    /*width: 340px;*/
-    right: 0;
-    top: 44%;
+    left: 80%;
+    top: 40%;
 }
