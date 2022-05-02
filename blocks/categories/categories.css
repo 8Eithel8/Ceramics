@@ -79,6 +79,12 @@
     left: -76px;
 }
 
+@media (max-width: 767px){
+    .title-aside {
+        display: none;
+    }
+}
+
 .categories__items {
     list-style: none;
     display: flex;
