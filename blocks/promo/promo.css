@@ -1,0 +1,116 @@
+
+.promo {
+    max-width: 1440px;
+    height: 708px;
+    background-image: url('../../image/promo-background.png');
+    background-repeat: no-repeat;
+    padding: 94px 32px 0 0;
+    box-sizing: border-box;
+    filter: opacity(0.8);
+}
+
+.promo__container {
+    max-width: 1252px;
+    min-height: 500px;
+    display: flex;
+    margin: 0 0 0 148px;
+    position: relative;
+}
+
+@media (max-width: 7673px) {
+    .promo__container {
+        margin-left: 100px;
+    }
+}
+
+.promo__text {
+    z-index: 2;
+    max-width: 512px;
+    margin-top: 40px;
+}
+
+.promo__author {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D77474;
+    margin-top: 60px;
+}
+
+
+
+.promo__title {
+    width: 422px;
+    height: 116px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    position: relative;
+    margin: 0;
+}
+
+.promo__title::after {
+    content: '';
+    position: absolute;
+    background-image: url(../../image/&.svg);
+    width: 57px;
+    height: 68px;
+    background-repeat: no-repeat;
+    top: -15px;
+    right: -60px;
+}
+
+.promo__slogan {
+    width: 512px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    margin: 14px 0 49px 0;
+}
+
+@media (max-width: 1023px) {
+    .promo__slogan {
+        color: #181818;
+    }
+}
+
+.promo__image {
+    z-index: 1;
+    width: 784px;
+    height: 445px;
+    object-fit: cover;
+    position: absolute;
+    top: 35px;
+    right: -5px;
+}
+
+
+@media (max-width: 1023px) {
+    .promo__image {
+        opacity: 0.8;
+    }
+}
+
+.promo__button {
+    width: 201px;
+    height: 62px;
+    background: #AC1313;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}

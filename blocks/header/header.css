@@ -1,0 +1,72 @@
+.header {
+    max-width: 1440px;
+    /* height: 91px; */
+    padding: 0 155px 0 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu {
+    min-width: 335px;
+    display: flex;
+    min-height: 38px;
+    border-right: 1px solid #EBEBEB;
+    align-items: center;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.logo {
+    width: 119px;
+    height: 45px;
+    margin: 19px 0 0 0;
+}
+
+.header__links {
+    box-sizing: border-box;
+    padding: 26px 0;
+    display: flex;
+}
+
+.header__link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #6C6C6C;
+    margin-right: 40px;
+}
+
+.header__link:last-child {
+    margin-right: 0;
+}
+
+.header__cart {
+    align-self: center;
+    text-decoration: none;
+    display: flex;
+}
+
+
+
+.header__cart-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin: 0 5px 0 16px;
+}
+
+.header__cart-text {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    align-items: center;
+}

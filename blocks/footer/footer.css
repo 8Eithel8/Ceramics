@@ -1,0 +1,20 @@
+.footer {
+    max-width: 1440px;
+    background-color: rgba(249, 249, 249, 1);
+    padding: 37px 0 34px 0;
+}
+
+.footer__copiright {
+    text-align: center;
+    margin: 0;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #6C6C6C;
+}
+
+.footer__autor {
+    color: #000000;
+}

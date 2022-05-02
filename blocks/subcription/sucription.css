@@ -1,0 +1,104 @@
+.subscription {
+    max-width: 1440px;
+    padding: 241px 0 134px 0;
+    position: relative;
+}
+
+.section__subtitle_place_subscription {
+    position: relative;
+}
+
+.section__subtitle_place_subscription::after {
+    position: absolute;
+    content: '';
+    background-image: url(../../image/message.svg);
+    width: 80px;
+    height: 80px;
+    top: -120px;
+    left: 47%;
+}
+
+.form-subscription {
+    width: 505px;
+    height: 133px;
+    margin: 0 auto;
+}
+
+.form-subscription__field{
+    width: 320px;
+    height: 45px;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: start;
+    color: #A1A1A1;
+    padding-left: 50px;
+    margin-right: 5px;
+}
+
+.form-subscription__button {
+    width: 175px;
+    height: 45px;
+    background: #000000;
+    border: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.form-subscription__checkbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.form-subscription__checkbox-invisible {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.form-subscription__checkbox-pseudo {
+    display: block;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #6C6C6C;
+}
+
+.form-subscription__checkbox-invisible:checked + .form-subscription__checkbox-pseudo {
+    background-color: #8534FF;
+}
+
+.form-subscription__checkbox-invisible:focus + .form-subscription__checkbox-pseudo {
+    border: 1px solid rgba(235, 185, 106, 1);
+}
+
+.form-subscription__checkbox-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #A1A1A1;
+    margin: 0 0 0 10px;
+}
+
+.title-aside-subscription {
+    position: absolute;
+    /*width: 340px;*/
+    right: 0;
+    top: 44%;
+}

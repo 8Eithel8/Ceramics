@@ -1,0 +1,82 @@
+.contacts {
+    max-width: 1440px;
+    padding: 90px 120px 165px 120px;
+    background: rgba(252, 252, 252, 1);
+    border-bottom: 1px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__text {
+    max-width: 340px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #6C6C6C;
+    margin: 25px 0 65px 0;
+}
+
+.contacts-block {
+    max-width: 1120px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.contacts-block__item {
+    max-width: 188px;
+    min-height: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 20px;
+    margin-right: 250px;
+}
+
+.contacts-block__item:last-of-type {
+    margin-right: 0;
+}
+
+.contacts-block__item_email {
+    background-image: url(../image/email.svg);
+}
+
+.contacts-block__item_adress {
+    background-image: url(../image/adress.svg);
+}
+
+.contacts-block__item_phone {
+    background-image: url(../image/phone.svg);
+}
+
+.contacts-block__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.contacts-block__info {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #6C6C6C;
+    margin: 0;
+}

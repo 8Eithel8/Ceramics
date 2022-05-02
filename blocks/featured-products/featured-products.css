@@ -1,0 +1,74 @@
+
+.featured-products {
+    border-bottom: 1px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+    position: relative;
+}
+
+.featured-products-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 250px);
+    gap: 195px 0;
+    padding: 220px 0 120px 45px;
+}
+
+.featured-products__image {
+    max-width: 500px;
+    height: 220px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.featured-products__image::after {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 509px;
+    top: -65%;
+    left: 25%;
+}
+
+.featured-products__image_color_gold::after {
+    background-image: url(../../image/image-vase2.png);
+}
+
+.featured-products__image_color_orange::after {
+    width: 350px;
+    background-image: url(../../image/image-vase.png);
+    top: -45%;
+    left: 13%;
+}
+
+.featured-products__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 20px 0 23px 0;
+}
+
+.featured-products__text {
+    max-width: 388px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;
+    margin: 0 0 27px 0;
+}
+
+.featured-products__link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+}
