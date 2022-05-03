@@ -16,6 +16,19 @@
     padding: 220px 0 120px 45px;
 }
 
+@media (max-width: 1279px) {
+    .featured-products-wrapper {
+        gap: 150px 30px;
+        padding: 160px 0 80px 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .featured-products-wrapper {
+        padding: 140px 0 60px 20px;
+    }
+}
+
 .featured-products__image {
     max-width: 500px;
     height: 220px;
@@ -43,7 +56,7 @@
 
 @media (max-width: 767px) {
     .featured-products__image::after {
-        width: calc(200px*0.8);
+        width: calc(200px*0.6);
         /*height: calc(509px*0.6);*/
     }
 }
@@ -68,7 +81,7 @@
 
 @media (max-width: 1023px) {
     .featured-products__image_color_orange::after {
-        width: calc(350px*0.9);
+        width: calc(350px*0.8);
         top: -45%;
         left: 3%;
     }
@@ -76,7 +89,7 @@
 
 @media (max-width: 767px) {
     .featured-products__image_color_orange::after {
-        width: calc(350px*0.8);
+        width: calc(350px*0.6);
         top: -45%;
         left: 0;
     }
@@ -92,6 +105,22 @@
     margin: 20px 0 23px 0;
 }
 
+@media (max-width: 1023px) {
+    .featured-products__title {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 15px 0 18px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .featured-products__title {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 10px 0 13px 0;
+    }
+}
+
 .featured-products__text {
     max-width: 388px;
     font-family: 'Libre Franklin';
@@ -101,6 +130,20 @@
     line-height: 24px;
     color: #6C6C6C;
     margin: 0 0 27px 0;
+}
+
+@media (max-width: 1023px) {
+    .featured-products__text {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    .featured-products__text {
+        font-size: 10px;
+        line-height: 20px;
+    }
 }
 
 .featured-products__link {

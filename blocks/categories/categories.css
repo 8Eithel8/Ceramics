@@ -12,16 +12,9 @@
 
 @media (max-width: 767px) {
     .categories {
-        padding: 60px;
+        padding: 40px;
     }
 }
-
-/*@media (max-width: 767px) {*/
-/*  .categories {*/
-/*    padding: 40px;*/
-/*  }*/
-/*}*/
-
 
 .section__subtitle {
     font-family: 'Poppins';
@@ -52,13 +45,29 @@
     color: #000000;
 }
 
+@media (max-width: 767px) {
+    .section__title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
 .section__title-image {
     display: block;
     background-image: url(../../image/&.svg);
     width: 57px;
     height: 68px;
     background-repeat: no-repeat;
-    margin: 15px 0px 0 2px;
+    margin: 15px 0 0 2px;
+    background-size: contain;
+}
+
+@media (max-width: 767px) {
+    .section__title-image {
+        width: calc(57px*0.8);
+        height: calc(68px*0.8);
+        margin: 22px 0 0 2px;
+    }
 }
 
 .categories-wrapper{
@@ -189,7 +198,14 @@
 @media (max-width: 1023px) {
     .categories__decriptoins {
        margin-bottom: 40px;
+       column-gap: 100px;
     }
+}
+
+@media (max-width: 767px) {
+    .categories__decriptoins {
+      grid-template-columns: repeat(1, 1fr);
+   }
 }
 
 .categories__decriptoins-title {
@@ -201,6 +217,12 @@
     max-width: 323px;
 }
 
+@media (max-width: 767px) {
+    .categories__decriptoins-title {
+        font-size: 19px;
+        line-height: 26px;
+    }
+}
 
 .categories__decriptoins-text {
     max-width: 501px;
@@ -210,4 +232,11 @@
     font-size: 14px;
     line-height: 24px;
     color: #6C6C6C;
+}
+
+@media (max-width: 767px) {
+    .categories__decriptoins-text {
+        font-size: 10px;
+        line-height: 20px;
+    }
 }
