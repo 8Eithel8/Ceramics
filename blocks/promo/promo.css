@@ -130,6 +130,7 @@
 @media (max-width: 1023px) {
     .promo__image {
         opacity: 0.6;
+        right: -130px;
     }
 }
 

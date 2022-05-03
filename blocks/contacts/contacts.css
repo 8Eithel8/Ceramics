@@ -4,9 +4,12 @@
     background: rgba(252, 252, 252, 1);
     border-bottom: 1px solid #EBEBEB;
     border-top: 1px solid #EBEBEB;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
+}
+
+@media (max-width: 767px) {
+    .contacts {
+        padding: 50px 40px 50px 40px;
+    }
 }
 
 .contacts-wrapper {
@@ -51,7 +54,7 @@
     background-repeat: no-repeat;
     background-position: top center;
     padding-top: 20px;
-    /*margin-right: 250px;*/
+    margin-bottom: 20px;
 }
 
 .contacts-block__item_email {
@@ -60,7 +63,7 @@
 
 .contacts-block__item_adress {
     background-image: url(../../image/adress.svg);
-    margin-right: 50px;
+    /*margin-right: 50px;*/
 }
 
 .contacts-block__item_phone {

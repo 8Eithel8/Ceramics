@@ -4,6 +4,18 @@
     position: relative;
 }
 
+@media (max-width: 1023px) {
+    .subscription {
+        padding: 200px 0 110px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .subscription {
+        padding: 140px 0 50px 0;
+    }
+}
+
 .section__subtitle_place_subscription {
     position: relative;
 }
@@ -12,16 +24,52 @@
     position: absolute;
     content: '';
     background-image: url(../../image/message.svg);
+    background-size: contain;
     width: 80px;
     height: 80px;
     top: -120px;
     left: 47%;
 }
 
+/*@media (max-width: 767px) {*/
+/*    .section__title-block-subcription {*/
+/*        flex-direction: column;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*    }*/
+/*}*/
+
+@media (max-width: 1023px) {
+    .section__subtitle_place_subscription::after {
+        width: 60px;
+        height: 60px;
+        top: -100px;
+        left: 43%;
+    }
+}
+
+@media (max-width: 767px) {
+    .section__subtitle_place_subscription::after {
+        width: 50px;
+        height: 50px;
+        top: -90px;
+        left: 43%;
+    }
+}
+
+
 .form-subscription {
-    width: 505px;
-    height: 133px;
+    max-width: 505px;
+    min-height: 133px;
     margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .form-subscription {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 }
 
 .form-subscription__field{
@@ -41,6 +89,13 @@
     margin-right: 5px;
 }
 
+@media (max-width: 767px) {
+    .form-subscription__field {
+        width: 184px;
+        margin: 0 0 10px 0;
+    }
+}
+
 .form-subscription__button {
     width: 175px;
     height: 45px;
@@ -54,6 +109,12 @@
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .form-subscription__button {
+        width: 184px;
+    }
 }
 
 .form-subscription__button:hover {

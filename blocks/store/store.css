@@ -63,6 +63,7 @@
 @media (max-width: 767px) {
     .table {
         max-width: 370px;
+        padding: 0;
     }
 }
 
