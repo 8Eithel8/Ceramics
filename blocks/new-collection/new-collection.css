@@ -11,6 +11,7 @@
 @media (max-width: 1023px) {
     .new-collection {
         padding: 60px 0 0 80px;
+        background-position: -310px 0;
     }
 }
 
@@ -52,13 +53,6 @@
     }
 }
 
-/*@media (max-width: 767px) {*/
-/*    .new-collection__title {*/
-/*        font-size: 26px;*/
-/*        line-height: 26px;*/
-/*    }*/
-/*}*/
-
 .new-collection__text {
     max-width: 425px;
     font-family: 'Libre Franklin';
@@ -77,12 +71,6 @@
         margin: 25px 0 50px 0;
     }
 }
-
-/*@media (max-width: 767px) {*/
-/*    .new-collection__text {*/
-/*        color: #424242;*/
-/*    }*/
-/*}*/
 
 .new-collection__link {
     color: #AC1313;

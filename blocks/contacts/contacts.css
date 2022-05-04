@@ -54,7 +54,6 @@
     background-repeat: no-repeat;
     background-position: top center;
     padding-top: 20px;
-    margin-bottom: 20px;
 }
 
 .contacts-block__item_email {
@@ -64,6 +63,12 @@
 .contacts-block__item_adress {
     background-image: url(../../image/adress.svg);
     /*margin-right: 50px;*/
+}
+
+@media (max-width: 767px) {
+    .contacts-block__item_adress {
+        margin-bottom: 30px;
+    }
 }
 
 .contacts-block__item_phone {
