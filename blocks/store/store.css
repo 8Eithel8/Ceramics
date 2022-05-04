@@ -20,12 +20,12 @@
     }
 }
 
-.section__title_place_store {
+.section-title_store {
     margin: 16px 0 63px 18px;
 }
 
 @media (max-width: 767px) {
-    .section__title_place_store {
+    .section-title_store {
         margin-bottom: 40px;
     }
 }
