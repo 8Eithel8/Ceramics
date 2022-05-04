@@ -4,14 +4,14 @@
     background-image: url('../../image/promo-background.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 94px 32px 0 148px;
+    padding: 93px 32px 118px 151px;
     box-sizing: border-box;
     overflow: hidden;
 }
 
 @media (max-width: 1023px) {
     .promo {
-        padding: 60px 40px 0 80px;
+        padding: 60px 40px 30px 80px;
     }
 }
 
