@@ -50,11 +50,6 @@
         left: calc(50% - 25px);
     }
 }
-/*@media (max-width: 767px) {*/
-/*    .section__title-block-subcription {*/
-/*       max-width: 240px;*/
-/*    }*/
-/*}*/
 
 .section__title_subscription {
     font-weight: 400;
