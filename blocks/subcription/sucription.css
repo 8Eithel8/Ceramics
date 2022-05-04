@@ -1,6 +1,6 @@
 .subscription {
     max-width: 1440px;
-    padding: 241px 0 134px 0;
+    padding: 243px 0 134px 0;
     position: relative;
 }
 
@@ -16,11 +16,13 @@
     }
 }
 
-.section__subtitle_place_subscription {
+.section__subtitle_subscription {
     position: relative;
+    font-weight: 400;
+    margin-right: 11px;
 }
 
-.section__subtitle_place_subscription::after {
+.section__subtitle_subscription::after {
     position: absolute;
     content: '';
     background-image: url(../../image/message.svg);
@@ -32,7 +34,7 @@
 }
 
 @media (max-width: 1023px) {
-    .section__subtitle_place_subscription::after {
+    .section__subtitle_subscription::after {
         width: 60px;
         height: 60px;
         top: -100px;
@@ -41,14 +43,22 @@
 }
 
 @media (max-width: 767px) {
-    .section__subtitle_place_subscription::after {
+    .section__subtitle_subscription::after {
         width: 50px;
         height: 50px;
         top: -90px;
         left: calc(50% - 25px);
     }
 }
+/*@media (max-width: 767px) {*/
+/*    .section__title-block-subcription {*/
+/*       max-width: 240px;*/
+/*    }*/
+/*}*/
 
+.section__title_subscription {
+    font-weight: 400;
+}
 
 .form-subscription {
     max-width: 505px;
@@ -77,7 +87,7 @@
     line-height: 20px;
     text-align: start;
     color: #A1A1A1;
-    padding-left: 50px;
+    padding-left: 42px;
     margin-right: 5px;
 }
 
@@ -157,8 +167,10 @@
 
 .title-aside-subscription {
     position: absolute;
-    left: 80%;
-    top: 40%;
+    left: 84.5%;
+    top: 32%;
+    font-size: 15px;
+    line-height: 34px;
 }
 
 @media (max-width: 1023px) {
