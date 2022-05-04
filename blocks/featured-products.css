@@ -86,7 +86,7 @@
 }
 
 .featured-products__image_color_gold::after {
-    background-image: url(../../image/image-vase2.png);
+    background-image: url(../image/image-vase2.png);
 }
 
 
@@ -98,7 +98,7 @@
 
 .featured-products__image_color_orange::after {
     width: 350px;
-    background-image: url(../../image/image-vase.png);
+    background-image: url(../image/image-vase.png);
     top: -45%;
     left: 14%;
 }

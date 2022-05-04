@@ -57,11 +57,11 @@
 }
 
 .contacts-block__item_email {
-    background-image: url(../../image/email.svg);
+    background-image: url(../image/email.svg);
 }
 
 .contacts-block__item_adress {
-    background-image: url(../../image/adress.svg);
+    background-image: url(../image/adress.svg);
     /*margin-right: 50px;*/
 }
 
@@ -72,7 +72,7 @@
 }
 
 .contacts-block__item_phone {
-    background-image: url(../../image/phone.svg);
+    background-image: url(../image/phone.svg);
 }
 
 .contacts-block__title {

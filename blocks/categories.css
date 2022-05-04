@@ -55,7 +55,7 @@
 
 .section-title-image {
     display: block;
-    background-image: url(../../image/&.svg);
+    background-image: url(../image/&.svg);
     width: 57px;
     height: 68px;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@
 }
 
 .categories__item_color_biege::after {
-    background-image: url(../../image/vase.svg);
+    background-image: url(../image/vase.svg);
 }
 
 .categories__item_color_orange {
@@ -187,7 +187,7 @@
 }
 
 .categories__item_color_orange::after {
-    background-image: url(../../image/mugs.svg);
+    background-image: url(../image/mugs.svg);
 }
 
 .categories__item_color_red {
@@ -195,7 +195,7 @@
 }
 
 .categories__item_color_red::after {
-    background-image: url(../../image/plates.svg);
+    background-image: url(../image/plates.svg);
 }
 
 .categories__decriptoins {

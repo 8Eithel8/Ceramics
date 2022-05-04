@@ -1,7 +1,7 @@
 
 .promo {
     max-width: 1440px;
-    background-image: url('../../image/promo-background.png');
+    background-image: url('../image/promo-background.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 93px 32px 118px 151px;
@@ -70,7 +70,7 @@
 .promo__title::after {
     content: '';
     position: absolute;
-    background-image: url(../../image/&.svg);
+    background-image: url(../image/&.svg);
     width: 57px;
     height: 68px;
     background-repeat: no-repeat;
@@ -144,6 +144,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
     border: none;
+    padding: 0;
 }
 
 .promo__button:hover {

@@ -1,7 +1,7 @@
 .new-collection {
     max-width: 1440px;
     min-height: 471px;
-    background-image: url('../../image/background_new-collection.jpg');
+    background-image: url('../image/background_new-collection.jpg');
     padding: 121px 0 0 144px;
     background-repeat: no-repeat;
     background-size: cover;
