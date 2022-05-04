@@ -24,7 +24,7 @@
 - создать валидацию формы на JS,
 - заполнение карточек товара с помощью JS.
 
-https://8eithel8.github.io/mesto/  
+https://8eithel8.github.io/pompeo/
 
 
 
