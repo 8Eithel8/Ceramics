@@ -1,7 +1,7 @@
 
 .store {
     width: 100%;
-    padding: 120px 0;
+    padding: 120px 25px 120px 0;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@
 }
 
 .section__title_place_store {
-    margin: 14px 0 63px 20px;
+    margin: 16px 0 63px 18px;
 }
 
 @media (max-width: 767px) {
@@ -32,7 +32,7 @@
 
 .title-aside_store {
     width: 340px;
-    left: -76px;
+    left: -95px;
     top: 44%;
     position: absolute;
 }
@@ -40,23 +40,29 @@
 @media (max-width: 1023px) {
     .title-aside_store {
         top: 45%;
-        left: -120px;
+        left: -125px;
     }
 }
 
 .table {
     display: flex;
     justify-content: space-evenly;
-    max-width: 1152px;
+    max-width: 1178px;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 0 0 0 30px;
+    padding: 0;
     list-style: none;
 }
 
 @media (max-width: 1279px) {
     .table {
         max-width: 900px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .table {
+        max-width: 750px;
     }
 }
 
@@ -74,7 +80,7 @@
     font-size: 16px;
     line-height: 26px;
     color: #6C6C6C;
-    margin: 12px 0 0 0;
+    margin: 17px 0 0 0;
 }
 
 .table__price {
@@ -86,6 +92,13 @@
     color: #000000;
     margin: 0 0 17px 0;
 }
+
+/*@media (max-width: 767px){*/
+/*    .table__price {*/
+/*        margin: 0;*/
+
+/*    }*/
+/*}*/
 
 .table__cell {
     width: 371px;
@@ -104,15 +117,16 @@
 
 @media (max-width: 767px){
     .table__cell {
-        width: 250px;
-        height: 465px;
+        width: calc(371px*0.70);
+        height: calc(580px*0.74);
+        margin-bottom: 40px;
     }
 }
 
 .table__image {
     width: 370px;
     height: 494px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 @media (max-width: 1023px){
@@ -124,7 +138,8 @@
 
 @media (max-width: 767px){
     .table__image {
-        width: 250px;
+        width: calc(370px*0.7);
+        height: calc(494px*0.7);
   }
 }
 .selection-card {
@@ -138,9 +153,9 @@
 }
 
 .button {
-    margin-top: 40px;
+    margin-top: 38px;
     width: 214px;
-    height: 61px;
+    height: 62px;
     background: #AC1313;
     border: none;
     font-family: 'Poppins';
