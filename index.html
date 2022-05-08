@@ -93,50 +93,9 @@
       <p class="section-subtitle">Our online store</p>
       <h2 class="section-title section-title_store">Pottery Collection</h2>
         <p class="title-aside title-aside_store ">Product&nbsp;Collections</p>
-        <ul class="table">
-          <li class="table__cell link">
-            <a class="selection-card" href="#">
-              <img class="table__image" src="./image/store-item1.jpg" alt="photo-item">
-              <p class="table__text">Decor Plate</p>
-              <p class="table__price">$ 65.00 USD</p>
-            </a>
-          </li>
-          <li class="table__cell link">
-            <a class="selection-card" href="#">
-              <img class="table__image" src="./image/store-item2.jpg" alt="photo-item">
-              <p class="table__text">Mint Pottery</p>
-              <p class="table__price">$ 75.00 USD</p>
-            </a>
-          </li>
-          <li class="table__cell link">
-            <a class="selection-card" href="#">
-              <img class="table__image" src="./image/store-item3.jpg" alt="photo-item">
-              <p class="table__text">Set Of Potterys</p>
-              <p class="table__price">$ 125.00 USD</p>
-            </a>
-          </li>
-          <li class="table__cell link">
-            <a class="selection-card" href="#">
-              <img class="table__image" src="./image/store-item4.jpg" alt="photo-item">
-              <p class="table__text">Orange Ceramic</p>
-              <p class="table__price">$ 55.00 USD</p>
-            </a>
-          </li>
-          <li class="table__cell link">
-            <a class="selection-card" href="#">
-              <img class="table__image" src="./image/store-item5.jpg" alt="photo-item">
-              <p class="table__text">Dark Bowl</p>
-              <p class="table__price">$ 115.00 USD</p>
-            </a>
-          </li>
-          <li class="table__cell link">
-            <a class="selection-card" href="#">
-              <img class="table__image" src="./image/store-item6.jpg" alt="photo-item">
-              <p class="table__text">Square Pottery</p>
-              <p class="table__price">$ 75.00 USD</p>
-            </a>
-          </li>
-        </ul>
+        <div class="table">
+
+        </div>
       <button class="button" type="button">View All Products</button>
 
     </section>
@@ -157,7 +116,7 @@
       </div>
       <form class="form-subscription" method="post">
         <label class="form-subscription__label-field" for="e-mail">
-          <input class="form-subscription__field" id="e-mail" type="text" placeholder="Enter your email">
+          <input class="form-subscription__field" id="e-mail" type="email" placeholder="Enter your email">
         </label>
         <button class="form-subscription__button" type="submit">subscibe</button>
         <div class="form-subscription__checkbox">
@@ -191,13 +150,22 @@
         </li>
       </ul>
     </section>
-  
+
+    <template id="card-template">
+      <article class="card link">
+        <a class="selection-card" href="#">
+          <img class="card__image" src="#" alt="">
+          <p class="card__text"></p>
+          <p class="card__price"></p>
+        </a>
+      </article>
+    </template>
   </main>
 
   <footer class="footer">
     <p class="footer__copiright">Template design by <span class="footer__autor">Dorian Hoxha - Image License Info</span></p>
     <p class="footer__copiright">The page was develop by <span class="footer__autor">A.Ulitina, 2022</span></p>
   </footer>
-
+<script type="module" src="pages/index.js"></script>
 </body>
 </html>

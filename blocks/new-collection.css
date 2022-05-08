@@ -81,4 +81,12 @@
     text-align: center;
     padding: 0;
     width: 195px;
+    transition: color .3s ease;
+}
+
+.button_place_new-collection:hover {
+    background-color: #CD7171;
+    opacity: 1;
+    cursor: pointer;
+    transition: color .3s ease;
 }
