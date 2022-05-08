@@ -24,5 +24,3 @@ const sectionCard = new Section(
 
 
 sectionCard.renderAll();
-
-ddEventListener('click', () => handleOpenPopupConfirm());
