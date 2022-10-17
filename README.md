@@ -26,7 +26,7 @@
 - создать валидацию формы на JS,
 
 
-https://8eithel8.github.io/pompeo/
+https://8eithel8.github.io/Ceramics/
 
 
 
